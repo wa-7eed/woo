@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>woo</title></head>
+    <body>
+        <style>
+            .center{
+                
+                text-align: center;
+                font-size: 25px;
+            }
+            .test{
+                width: 300px;
+                height: 30px;
+                font-size: 25px;
+                padding: 12px 20px;
+                margin: 8px 8px;
+                border: 2px solid rgb(27, 202, 129);
+                border-radius: 15px;
+                
+            }
+            button{
+                background-color: #04AA6D;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-size: 20px;
+                
+            }
+            img{
+                width: 250px;
+            }
+            form{
+                font-size: 20px;
+            }
+           /* #fname{
+                float: left;
+            }
+            #lname{
+                float: right;
+            }*/
+            #reson{
+                width: 400px;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                resize: none;
+            }
+            #order{
+                width: 400px;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                resize: none;
+            }
+            .a,.b,.c,.d,.e,.f,.q,.w{
+                display: inline-block;
+                text-align: left;
+            }
+            label{
+                display: block;
+            }
+            #password,#address{
+                width: 700px;
+                
+            }
+
+        </style>
+        <div class="center"><b>
+            Welcome in woo world <br>
+            <img src="https://th.bing.com/th/id/OIP.oo9CiYXe9lHb4jqC5MyYAAHaIY?w=151&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7">
+            <br>
+          <h1>HaHaHaHaHaHaHa</h1>  to know what happend complet the follwing form<br><br>
+        </b>
+        <form method="post">
+
+            <div class="a"><label for="fname">first name</label>
+            <input id="fname" type="text" class="test"></div>
+            
+            
+            <div class="b"><label for="lname">last name</label>
+            <input id="lname" type="text" class="test"></div>
+            <br><br>
+            <div class="c"><label for="email">email</label>
+            <input id="email" type="email" class="test"></div>
+
+            <div class="d"><label for="pnumber">phone number</label>
+            <input id="pnumber" type="number" class="test"></div>
+            <br><br>
+
+            <div class="e"><label for="address">your address </label>
+            <input id="address" type="text" class="test"></div>
+            <br><br>
+            <div class="f"><label for="password">password</label>
+            <input id="password" type="password" class="test"></div>
+            <br><br>
+            <div class="w"><label for="reson">why do you want to join us</label>
+            <input id="reson" type="text" class="test"></div>
+
+            <div class="q"><label for="order">ادعي لأخواننا في فلسطين وصلي علي الحبيب</label>
+            <input id="order" type="text" class="test"></div>
+            <br><br>
+            <input type="checkbox"> I agree to sell mysalf <br><br>
+            <button>submet</button>
+            <br><br<>
+            to ask about anything click 
+                <a href="https://wa.me/qr/QV7RAQNTNT3OH1">here</a>
+        </form></div>
+    </body>
+</html>
